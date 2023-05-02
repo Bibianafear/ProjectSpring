@@ -52,7 +52,7 @@ public class CompanyService {
 		return repository.save(existingCompany);
 	}
 
-	public CompanyEntity updateProductByFields(int id, Map<String, Object> fields) {
+	/*public CompanyEntity updateProductByFields(int id, Map<String, Object> fields) {
 		CompanyEntity existingCompany = repository.findById(id).get();
 		
 		fields.forEach((key,value)->{
@@ -62,5 +62,5 @@ public class CompanyService {
 		});
 		
 		return repository.save(existingCompany);
-	}
+	}*/
 }

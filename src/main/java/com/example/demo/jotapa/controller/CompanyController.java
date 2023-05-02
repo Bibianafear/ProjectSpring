@@ -51,9 +51,9 @@ public class CompanyController {
 	public String deleteCompany(@PathVariable int id ) {
 		return service.deleteById(id);
 	}
-	
+	/*
 	@PatchMapping("/{id}")
 	public CompanyEntity updatePartially (@PathVariable int id, @RequestBody Map<String,Object> fields) {
 		return service.updateProductByFields(id, fields);
-	}
+	}*/
 }
